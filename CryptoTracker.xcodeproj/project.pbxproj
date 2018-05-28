@@ -11,6 +11,7 @@
 		0F3C7B0320BC946C00C71E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3C7B0220BC946C00C71E5C /* Assets.xcassets */; };
 		0F3C7B0620BC946C00C71E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3C7B0420BC946C00C71E5C /* LaunchScreen.storyboard */; };
 		0F3C7B0E20BC99EB00C71E5C /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3C7B0D20BC99EB00C71E5C /* CryptoTableViewController.swift */; };
+		0F3C7B1020BC9FE100C71E5C /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3C7B0F20BC9FE100C71E5C /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0F3C7B0520BC946C00C71E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3C7B0720BC946C00C71E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F3C7B0D20BC99EB00C71E5C /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		0F3C7B0F20BC9FE100C71E5C /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0F3C7AFB20BC946B00C71E5C /* AppDelegate.swift */,
 				0F3C7B0D20BC99EB00C71E5C /* CryptoTableViewController.swift */,
+				0F3C7B0F20BC9FE100C71E5C /* CoinData.swift */,
 				0F3C7B0220BC946C00C71E5C /* Assets.xcassets */,
 				0F3C7B0420BC946C00C71E5C /* LaunchScreen.storyboard */,
 				0F3C7B0720BC946C00C71E5C /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3C7B1020BC9FE100C71E5C /* CoinData.swift in Sources */,
 				0F3C7B0E20BC99EB00C71E5C /* CryptoTableViewController.swift in Sources */,
 				0F3C7AFC20BC946B00C71E5C /* AppDelegate.swift in Sources */,
 			);
