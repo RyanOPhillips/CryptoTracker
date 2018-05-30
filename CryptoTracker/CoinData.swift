@@ -8,6 +8,17 @@
 
 import UIKit
 
+class CoinData{
+    
+    static let shared = CoinData()
+    var coins = [Coin]()
+    
+    private init () {
+        let symbols = ["BTC","ETH","LTC"]
+        
+        
+}
+
 class Coin {
     var symbol = ""
     var image = UIImage()
