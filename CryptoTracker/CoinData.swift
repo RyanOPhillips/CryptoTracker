@@ -16,6 +16,12 @@ class CoinData{
     private init () {
         let symbols = ["BTC","ETH","LTC"]
         
+        for symbol in symbols {
+            let coin = Coin(symbol: symbol)
+            coins.append(coin)
+            
+        }
+    }
         
 }
 
@@ -26,5 +32,8 @@ class Coin {
     var amount = 0.0
     var historicalData = [Double]()
     
+    init(symbol: String) {
+        self.symbol = symbol
+    }
     
 }
