@@ -20,13 +20,16 @@ class CryptoTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return CoinData.shared.coins.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let cell = UITableViewCell()
+        
+        let coin = CoinData.shared.coins[indexPath.row]
+        
+        cell.textLabel?.text = coin.symbol
+        cell.imageView?.image = coin.image
 
         return cell
     }
